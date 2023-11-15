@@ -1,0 +1,35 @@
+@media (max-width : 992px) {
+    
+    .search-input{
+        width: 50%;
+    }
+    .login-button{
+        margin-top:  20px ;
+    }
+    .lab-ope{
+        margin-top: -100px;
+    }
+    }
+
+
+/* staff */
+
+.staff-item:hover{
+    transform: scale(1.1);
+}
+
+
+/* News */
+.lineprogress{
+    background-color: gray;
+    height: 5px;
+    width: 50px;
+    transition: 1s;
+    margin-bottom: 10px;
+}
+.newscard:hover .lineprogress {
+    width: 150px;
+}
+.newscard:hover .newsimg{
+    transform: scale(1.2);
+}
